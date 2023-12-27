@@ -1,0 +1,108 @@
+.img{
+    height: auto!important;
+}
+.yo{
+    max-height: 1000px!important;
+    overflow: hidden;
+}
+.text{
+    font-size: 800%;
+    color: gray;
+    
+}
+.arrow1{
+    color: gray;
+    animation: Bounce 3s infinite;
+    display: none;
+}
+.arrow{
+    color: gray;
+    animation: Bounce 3s infinite;
+    
+}
+@keyframes Bounce {
+    0%{
+        transform: translateY(-10px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.text span{
+   
+    color: gray;
+}
+
+.background{
+    background-color: white;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+}
+
+.hero-pic{
+   
+object-fit: cover;
+object-position: 80% 80%;
+    
+}
+
+.ctnr{
+    color: black;
+    max-height: 700px!important;
+    overflow: hidden;
+}
+
+.writing {
+    font-size: 50%!important;
+    text-align: center;
+    
+    
+}
+.writing1 {
+    display: none;
+   
+}
+@media (max-width: 1000px) {
+
+    .writing{
+        display: none;
+        
+    }
+    .writing1{
+        display: block;
+        color: rgb(213, 213, 213);
+        text-shadow: 1px 2px rgb(59, 58, 58)
+        
+       
+    }
+    .writing1 span{
+       
+        color: rgb(213, 213, 213);
+    }
+    .arrow{
+        color: rgb(213, 213, 213);
+        
+    }
+    .arrow1{
+        color: rgb(213, 213, 213);
+        display: block;
+    }
+    
+}
+
+@media (min-width: 400px) {
+    /* img {height: 250px!important;} */
+}

@@ -1,0 +1,19 @@
+.gallery-item{
+    margin: 0.5%;
+    display: flex;
+    
+
+}
+.gallery-container{
+    color: black;
+    
+
+}
+.lg-react-element{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  justify-content: center;
+   align-items: center;
+}
