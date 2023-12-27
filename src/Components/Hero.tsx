@@ -28,7 +28,7 @@ const Hero = () => {
             <Card border="light" className="d-block ctnr rounded-5 text-white">
               <Card.Img
                 className="hero-pic rounded-5 "
-                src="/images/Hero-2.jpeg"
+                src="/images/Hero.jpeg"
                 alt="Card image"
               />
               <Card.ImgOverlay className="d-flex text-center align-item-center justify-content-center">
