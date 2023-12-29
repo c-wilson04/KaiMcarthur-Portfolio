@@ -26,7 +26,7 @@ const Bio = () => {
           </p>
         </div>
         <div className="d-flex w-50 h-100 justify-content-center">
-          <Image className="bio-pic " width={300} src="images/kay.jpeg"></Image>
+          <Image className="bio-pic " width={300} src="/images/kay.jpeg"></Image>
         </div>
       </div>
 

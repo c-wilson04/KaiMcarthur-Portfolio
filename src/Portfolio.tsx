@@ -31,10 +31,10 @@ const Portfolio = () => {
                   height={250}
                 ></Image>
               </a>
-              <a href="images/Elantra1.jpeg" className="gallery-item">
+              <a href="/images/Elantra1.jpeg" className="gallery-item">
                 <Image
                   className="gallery-item"
-                  src="images/Elantra1.jpeg"
+                  src="/images/Elantra1.jpeg"
                   height={250}
                 ></Image>
               </a>
