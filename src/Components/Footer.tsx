@@ -35,8 +35,10 @@ const Footer = () => {
           className="mx-5 mb-5 text-center align-itens-center justify-content-center"
         >
           <p className="fw-semibold fs-5">Hours</p>
-          <p className="m-0">Monday - Friday</p>
-          <p className="m-0">24/7</p>
+          <p className="m-0 text-color-black">Come schedule an appointment</p>
+          <a href="/Contact" className="link-dark">
+            <p className="m-0">Here</p>
+          </a>
         </Col>
         <Col
           md="auto"
